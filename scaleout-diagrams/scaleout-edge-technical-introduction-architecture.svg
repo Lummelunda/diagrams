@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040"><defs>
+<marker id="blue" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3467B5"/></marker>
+<marker id="orange" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#F36B34"/></marker>
+</defs><rect width="1200" height="1040" fill="#F7F7F7"/>
+<text x="45" y="54.0" dominant-baseline="middle" text-anchor="start" font-family="Georgia,Arial,sans-serif" font-size="30" font-weight="400" fill="#323747">Scaleout Edge: how the learning network works</text>
+<text x="45" y="96.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Local execution, distributed aggregation and global coordination</text>
+<rect x="35" y="125" width="1130" height="180" rx="7" fill="#F3F3F3" stroke="#DADBDD" stroke-width="1.3"/>
+<text x="55" y="161.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="23" font-weight="700" fill="#323747">Control plane</text>
+<text x="55" y="199.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#45516A">Global coordination</text>
+<rect x="35" y="395" width="1130" height="135" rx="7" fill="#F3F3F3" stroke="#DADBDD" stroke-width="1.3"/>
+<text x="55" y="431.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="23" font-weight="700" fill="#323747">Combiners</text>
+<text x="55" y="469.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#45516A">Group aggregation</text>
+<rect x="35" y="670" width="1130" height="200" rx="7" fill="#F3F3F3" stroke="#DADBDD" stroke-width="1.3"/>
+<text x="55" y="706.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="23" font-weight="700" fill="#323747">Edge clients</text>
+<text x="55" y="744.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#45516A">Local data + execution</text>
+<rect x="260" y="140" width="880" height="150" rx="7" fill="#FFFFFF" stroke="#323747" stroke-width="1.3"/>
+<text x="282" y="176.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#323747">Orchestration · Global Model Registry · Governance · Observability</text>
+<text x="282" y="222.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Reducer combines group-level models into the next global version</text>
+<text x="282" y="258.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#45516A">Coordinates sessions and rounds; records model versions and history</text>
+<rect x="280" y="410" width="360" height="105" rx="7" fill="#F8EEEB" stroke="#F36B34" stroke-width="1.3"/>
+<text x="300" y="437.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#323747">Combiner A</text>
+<text x="300" y="469.525" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Client coordination</text>
+<text x="300" y="492.47499999999997" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Model aggregation</text>
+<rect x="760" y="410" width="360" height="105" rx="7" fill="#F8EEEB" stroke="#F36B34" stroke-width="1.3"/>
+<text x="780" y="437.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#323747">Combiner B</text>
+<text x="780" y="469.525" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Client coordination</text>
+<text x="780" y="492.47499999999997" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Model aggregation</text>
+<rect x="260" y="685" width="170" height="170" rx="7" fill="#FFFFFF" stroke="#323747" stroke-width="1.3"/>
+<text x="274" y="711.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#323747">Client A1</text>
+<text x="274" y="748.55" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Local training</text>
+<text x="274" y="767.4499999999999" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Validation · Inference</text>
+<path d="M274,806 v25 a16,5 0 0 0 32,0 v-25" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/><ellipse cx="290" cy="806" rx="16" ry="5" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/>
+<text x="314" y="818.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#526480">Local dataset</text>
+<rect x="490" y="685" width="170" height="170" rx="7" fill="#FFFFFF" stroke="#323747" stroke-width="1.3"/>
+<text x="504" y="711.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#323747">Client A2</text>
+<text x="504" y="748.55" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Local training</text>
+<text x="504" y="767.4499999999999" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Validation · Inference</text>
+<path d="M504,806 v25 a16,5 0 0 0 32,0 v-25" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/><ellipse cx="520" cy="806" rx="16" ry="5" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/>
+<text x="544" y="818.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#526480">Local dataset</text>
+<rect x="740" y="685" width="170" height="170" rx="7" fill="#FFFFFF" stroke="#323747" stroke-width="1.3"/>
+<text x="754" y="711.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#323747">Client B1</text>
+<text x="754" y="748.55" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Local training</text>
+<text x="754" y="767.4499999999999" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Validation · Inference</text>
+<path d="M754,806 v25 a16,5 0 0 0 32,0 v-25" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/><ellipse cx="770" cy="806" rx="16" ry="5" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/>
+<text x="794" y="818.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#526480">Local dataset</text>
+<rect x="970" y="685" width="170" height="170" rx="7" fill="#FFFFFF" stroke="#323747" stroke-width="1.3"/>
+<text x="984" y="711.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#323747">Client B2</text>
+<text x="984" y="748.55" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Local training</text>
+<text x="984" y="767.4499999999999" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#45516A">Validation · Inference</text>
+<path d="M984,806 v25 a16,5 0 0 0 32,0 v-25" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/><ellipse cx="1000" cy="806" rx="16" ry="5" fill="#F0F2EF" stroke="#839878" stroke-width="1.3"/>
+<text x="1024" y="818.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#526480">Local dataset</text>
+<path d="M400.0,290 V350 H400.0 V410" fill="none" stroke="#3467B5" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<path d="M520.0,410 V350 H520.0 V290" fill="none" stroke="#F36B34" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<path d="M337.6,515 V570 H319.5 V685" fill="none" stroke="#3467B5" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<path d="M370.5,685 V620 H402.4 V515" fill="none" stroke="#F36B34" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<path d="M517.6,515 V570 H549.5 V685" fill="none" stroke="#3467B5" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<path d="M600.5,685 V620 H582.4000000000001 V515" fill="none" stroke="#F36B34" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<path d="M880.0,290 V350 H880.0 V410" fill="none" stroke="#3467B5" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<path d="M1000.0,410 V350 H1000.0 V290" fill="none" stroke="#F36B34" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<path d="M817.6,515 V570 H799.5 V685" fill="none" stroke="#3467B5" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<path d="M850.5,685 V620 H882.4 V515" fill="none" stroke="#F36B34" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<path d="M997.6,515 V570 H1029.5 V685" fill="none" stroke="#3467B5" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<path d="M1080.5,685 V620 H1062.4 V515" fill="none" stroke="#F36B34" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<rect x="256" y="323" width="190" height="27" fill="#F7F7F7"/>
+<text x="256" y="336.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#3467B5">Models and tasks</text>
+<rect x="485" y="359" width="165" height="27" fill="#F7F7F7"/>
+<text x="485" y="372.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#C94E1E">Model updates</text>
+<rect x="736" y="323" width="190" height="27" fill="#F7F7F7"/>
+<text x="736" y="336.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#3467B5">Models and tasks</text>
+<rect x="965" y="359" width="165" height="27" fill="#F7F7F7"/>
+<text x="965" y="372.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#C94E1E">Model updates</text>
+<rect x="260" y="641" width="280" height="27" fill="#F7F7F7"/>
+<text x="260" y="654.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#3467B5">↓ Models and tasks</text>
+<rect x="760" y="641" width="280" height="27" fill="#F7F7F7"/>
+<text x="760" y="654.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#C94E1E">↑ Model updates</text>
+<text x="45" y="905.0" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#45516A">Metrics, telemetry and permitted artifacts are reported to the platform.</text>
+<text x="45" y="936.5" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#45516A">Reporting routes are separate from the aggregation path shown here.</text>
+<text x="45" y="981.85" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="18" font-weight="400" fill="#323747">Training data stays local; models and updates connect the learning network.</text>
+<text x="45" y="1006.15" dominant-baseline="middle" text-anchor="start" font-family="Roboto,Arial,sans-serif" font-size="18" font-weight="400" fill="#323747">Clients initiate outbound connections.</text>
+</svg>

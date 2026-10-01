@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="federated-learning-architecture" name="Federated learning architecture">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0" pageWidth="1500" pageHeight="830" dx="1500" dy="830" background="#F7F7F7" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1500" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="SYSTEM ARCHITECTURE  /  02" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50" y="45" width="760" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Federated learning architecture" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=29;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50" y="74" width="1250" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="Models go to the edge. Training stays local. Combiners aggregate updates before the next model version is recorded." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=15;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50" y="132" width="1380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2;shadow=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="50" y="220" width="390" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-eyebrow" value="01  DATA PLANE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="edge">
+          <mxGeometry x="24" y="20" width="342" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-heading" value="Edge clients" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="edge">
+          <mxGeometry x="24" y="55" width="342" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-subtitle" value="Local data, training and inference · outbound-only links" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="edge">
+          <mxGeometry x="24" y="96" width="342" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="combiners" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2;shadow=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="550" y="220" width="320" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="combiners-eyebrow" value="02  AGGREGATION" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="combiners">
+          <mxGeometry x="24" y="20" width="272" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="combiners-heading" value="Combiners" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="combiners">
+          <mxGeometry x="24" y="55" width="272" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="combiners-subtitle" value="Groups of clients · partial models" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="combiners">
+          <mxGeometry x="24" y="96" width="272" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="control" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2;shadow=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="980" y="220" width="470" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="control-eyebrow" value="03  COORDINATION" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="24" y="20" width="422" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="control-heading" value="Control plane" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="24" y="55" width="422" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="control-subtitle" value="Rounds, versioning, access and telemetry" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="24" y="96" width="422" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="client-a" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="edge">
+          <mxGeometry x="24" y="153" width="342" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="client-a-title" value="Edge client A" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="client-a">
+          <mxGeometry x="16" y="12" width="310" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="client-a-detail" value="Local dataset · SDK · training and inference" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="client-a">
+          <mxGeometry x="16" y="43" width="310" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="client-b" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="edge">
+          <mxGeometry x="24" y="278" width="342" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="client-b-title" value="Edge client B" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="client-b">
+          <mxGeometry x="16" y="12" width="310" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="client-b-detail" value="Local dataset · SDK · training and inference" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="client-b">
+          <mxGeometry x="16" y="43" width="310" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="raw-data-note" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F0F2EF;strokeColor=#839878;strokeWidth=1.2;" vertex="1" parent="edge">
+          <mxGeometry x="24" y="407" width="342" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="raw-data-title" value="RAW DATA STAYS AT SOURCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11;fontColor=#839878;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="raw-data-note">
+          <mxGeometry x="15" y="7" width="312" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="raw-data-detail" value="No raw dataset transfer in the default FL path" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="raw-data-note">
+          <mxGeometry x="15" y="29" width="312" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-a" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="combiners">
+          <mxGeometry x="24" y="153" width="272" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-a-title" value="Combiner A" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="combiner-a">
+          <mxGeometry x="16" y="12" width="240" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-a-detail" value="Aggregates updates from its client group" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="combiner-a">
+          <mxGeometry x="16" y="43" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-b" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="combiners">
+          <mxGeometry x="24" y="278" width="272" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-b-title" value="Combiner B" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="combiner-b">
+          <mxGeometry x="16" y="12" width="240" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-b-detail" value="Aggregates updates from another group" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="combiner-b">
+          <mxGeometry x="16" y="43" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-note" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.2;" vertex="1" parent="combiners">
+          <mxGeometry x="24" y="407" width="272" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="combiner-note-text" value="Add Combiners to scale; rounds can complete with partial participation." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="combiner-note">
+          <mxGeometry x="15" y="8" width="242" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="controller" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="control">
+          <mxGeometry x="24" y="153" width="202" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="controller-title" value="Controller" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="controller">
+          <mxGeometry x="16" y="12" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="controller-detail" value="Selects clients · schedules rounds" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="controller">
+          <mxGeometry x="16" y="43" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="reducer" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="control">
+          <mxGeometry x="244" y="153" width="202" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="reducer-title" value="Reducer" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="reducer">
+          <mxGeometry x="16" y="12" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="reducer-detail" value="Merges partial models" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="reducer">
+          <mxGeometry x="16" y="43" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="registry" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="control">
+          <mxGeometry x="24" y="278" width="202" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="registry-title" value="Model Registry" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="registry">
+          <mxGeometry x="16" y="12" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="registry-detail" value="Versions and provenance" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="registry">
+          <mxGeometry x="16" y="43" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="observability" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2;" vertex="1" parent="control">
+          <mxGeometry x="244" y="278" width="202" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="observability-title" value="Observability" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="observability">
+          <mxGeometry x="16" y="12" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="observability-detail" value="Metrics and fleet telemetry" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="observability">
+          <mxGeometry x="16" y="43" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="control-note" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.2;" vertex="1" parent="control">
+          <mxGeometry x="24" y="407" width="422" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="control-note-label" value="ALSO IN THE CONTROL PLANE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control-note">
+          <mxGeometry x="15" y="7" width="392" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="control-note-text" value="API gateway · identity and access" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="control-note">
+          <mxGeometry x="15" y="27" width="392" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="model-control-combiners" value="MODEL" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2;fontFamily=Courier New;fontSize=10;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10;exitX=0;exitY=0.42;exitPerimeter=0;entryX=1;entryY=0.42;entryPerimeter=0;" edge="1" source="control" target="combiners" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="model-combiners-edge" value="MODEL" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2;fontFamily=Courier New;fontSize=10;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10;exitX=0;exitY=0.42;exitPerimeter=0;entryX=1;entryY=0.42;entryPerimeter=0;" edge="1" source="combiners" target="edge" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="updates-edge-combiners" value="UPDATES" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=2;fontFamily=Courier New;fontSize=10;fontStyle=1;fontColor=#F36B34;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10;exitX=1;exitY=0.72;exitPerimeter=0;entryX=0;entryY=0.72;entryPerimeter=0;" edge="1" source="edge" target="combiners" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="partial-combiners-control" value="PARTIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=2;fontFamily=Courier New;fontSize=10;fontStyle=1;fontColor=#F36B34;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10;exitX=1;exitY=0.72;exitPerimeter=0;entryX=0;entryY=0.72;entryPerimeter=0;" edge="1" source="combiners" target="control" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="DEFAULT FL PATH  /  RAW DATA LOCAL  /  MODEL UPDATES SHARED" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50" y="754" width="840" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-note" value="Model updates can still require privacy review." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="1025" y="754" width="425" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
