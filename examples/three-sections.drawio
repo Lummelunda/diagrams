@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="page-1" name="Page-1">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1160" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#ececec;strokeColor=#2d3142;strokeWidth=1;strokeOpacity=12;" vertex="1" parent="c1">
+          <mxGeometry x="40" y="40" width="240" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="PUBLIC INGRESS ZONE" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=12;fontColor=#45516A;" vertex="1" parent="c2">
+          <mxGeometry x="20" y="17.9" width="151" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;div&gt;Developer Workstation&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Identity: dev_alice (mTLS)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=0;spacingLeft=16;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c2">
+          <mxGeometry x="20" y="56" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;div&gt;Unauthorized Attacker&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Bypass Attempt (No Key)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#eb6c36;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=0;spacingLeft=16;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#eb6c36;fontStyle=1;" vertex="1" parent="c2">
+          <mxGeometry x="20" y="285" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#ececec;strokeColor=#2d3142;strokeWidth=1;strokeOpacity=12;" vertex="1" parent="c1">
+          <mxGeometry x="330" y="40" width="380" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="CORPORATE GOVERNANCE ZONE" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=12;fontColor=#45516A;" vertex="1" parent="c6">
+          <mxGeometry x="20" y="17.9" width="196" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="&lt;div&gt;CI/CD Paved Road Pipeline&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Build: Signed Artifact &amp;amp; Policy Check&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=0;spacingLeft=20;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c6">
+          <mxGeometry x="20" y="56" width="340" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="&lt;div&gt;Privileged Security Gate&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Policy: OPA Signature &amp;amp; Vulnerability Scan&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=top;spacing=0;spacingTop=10.17;spacingLeft=20;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c6">
+          <mxGeometry x="20" y="170" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="&lt;div&gt;Boundary Firewall &amp;amp; WAF&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 11.5px; margin-top: 6.76px&quot;&gt;Status: × BLOCKED&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#eb6c36;fillOpacity=8;strokeColor=#eb6c36;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=0;spacingLeft=16;fontFamily=Geist, Helvetica;fontSize=13;fontColor=#eb6c36;fontStyle=1;" vertex="1" parent="c6">
+          <mxGeometry x="20" y="285" width="210" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="&lt;div&gt;Centralized Audit Log Service&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Storage: Immutable SIEM Audit Trail&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=top;spacing=0;spacingTop=12.17;spacingLeft=20;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c6">
+          <mxGeometry x="20" y="395" width="340" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#ececec;strokeColor=#2d3142;strokeWidth=1;strokeOpacity=12;" vertex="1" parent="c1">
+          <mxGeometry x="760" y="40" width="360" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" value="ISOLATED PRODUCTION RUNTIME" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=12;fontColor=#45516A;" vertex="1" parent="c12">
+          <mxGeometry x="20" y="17.9" width="211" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" value="&lt;div&gt;Production API Gateway&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Status: ADMITTED [TLS 1.3 Strict]&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=0;spacingLeft=20;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c12">
+          <mxGeometry x="20" y="56" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="&lt;div&gt;Isolated Core Database&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Access: Paved Road Only (KMS Encrypted)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=top;spacing=0;spacingTop=10.17;spacingLeft=20;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c12">
+          <mxGeometry x="20" y="170" width="320" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="&lt;div&gt;Security Operations Center&lt;/div&gt;&lt;div style=&quot;font-family: Geist Mono, Courier New; font-size: 12px; margin-top: 6.04px&quot;&gt;&lt;span style=&quot;font-weight: normal; color: #45516A&quot;&gt;Monitoring: Real-time Alerting Active&lt;/span&gt;&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;align=left;verticalAlign=top;spacing=0;spacingTop=12.17;spacingLeft=20;fontFamily=Geist, Helvetica;fontSize=14;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c12">
+          <mxGeometry x="20" y="395" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.0071;entryY=0.5;entryPerimeter=0;strokeColor=#2d3142;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c1" source="c4" target="c8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="132" as="sourcePoint" />
+            <mxPoint x="352.4" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c18" value="&lt;div&gt;GIT PUSH&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1;align=center;verticalAlign=middle;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c1">
+          <mxGeometry x="275" y="104" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0.0316;entryPerimeter=0;strokeColor=#2d3142;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c6" source="c8" target="c9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="128" as="sourcePoint" />
+            <mxPoint x="190" y="172.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c20" value="&lt;div&gt;PROVENANCE [SIGNED]&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1;align=center;verticalAlign=middle;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c6">
+          <mxGeometry x="110" y="138" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=1;exitY=0.2632;exitPerimeter=0;entryX=0.0051;entryY=0.4754;entryPerimeter=0;strokeColor=#2d3142;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c1" source="c9" target="c14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="230" as="sourcePoint" />
+            <mxPoint x="781.62" y="130.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c22" value="&lt;div&gt;✓ PASS&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1;align=center;verticalAlign=middle;spacing=0;spacingRight=1;fontFamily=Geist Mono, Courier New;fontSize=10;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c1">
+          <mxGeometry x="700" y="166" width="65" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0.0316;entryPerimeter=0;strokeColor=#2d3142;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c12" source="c14" target="c15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="128" as="sourcePoint" />
+            <mxPoint x="180" y="172.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c24" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.0114;entryY=0.5;entryPerimeter=0;strokeColor=#eb6c36;strokeWidth=2;dashed=1;dashPattern=2 2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c1" source="c5" target="c10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="361" as="sourcePoint" />
+            <mxPoint x="352.4" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c25" value="&lt;div&gt;BYPASS&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#eb6c36;strokeWidth=1;align=center;verticalAlign=middle;spacing=0;spacingRight=1;fontFamily=Geist Mono, Courier New;fontSize=9.5;fontColor=#eb6c36;fontStyle=1;" vertex="1" parent="c1">
+          <mxGeometry x="272" y="345" width="65" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=0.7941;exitY=1;exitPerimeter=0;entryX=0.7941;entryY=0.0333;entryPerimeter=0;strokeColor=#2d3142;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c6" source="c9" target="c11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="246" as="sourcePoint" />
+            <mxPoint x="290" y="397.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c27" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.3088;entryY=0.0333;entryPerimeter=0;strokeColor=#eb6c36;strokeWidth=2;dashed=1;dashPattern=2 2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c6" source="c10" target="c11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="357" as="sourcePoint" />
+            <mxPoint x="125" y="397.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c28" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.0075;entryY=0.5;entryPerimeter=0;strokeColor=#2d3142;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="c1" source="c11" target="c16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="471" as="sourcePoint" />
+            <mxPoint x="782.4" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c29" value="&lt;div&gt;AUDIT LOGGED&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1;align=center;verticalAlign=middle;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10;fontColor=#2d3142;fontStyle=1;" vertex="1" parent="c6">
+          <mxGeometry x="240" y="310" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=0;strokeColor=#2d3142;strokeWidth=2;" edge="1" parent="c1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="584" as="sourcePoint" />
+            <mxPoint x="67.4" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c31" value="Authorized Paved Road" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10.5;fontColor=#2d3142;" vertex="1" parent="c1">
+          <mxGeometry x="73" y="575.19" width="119.7" height="15.66" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" value="" style="startArrow=none;endArrow=block;endFill=1;endSize=4.6;html=1;rounded=0;strokeColor=#eb6c36;strokeWidth=2;dashed=1;dashPattern=1.5 1.5;" edge="1" parent="c1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="584" as="sourcePoint" />
+            <mxPoint x="252.4" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c33" value="Blocked Bypass Attempt" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10.5;fontColor=#2d3142;" vertex="1" parent="c1">
+          <mxGeometry x="258" y="575.19" width="125.4" height="15.66" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" value="" style="rounded=1;absoluteArcSize=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1.5;" vertex="1" parent="c1">
+          <mxGeometry x="425" y="577" width="16" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" value="Paved Road Node" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10.5;fontColor=#2d3142;" vertex="1" parent="c1">
+          <mxGeometry x="447" y="575.19" width="85.5" height="15.66" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" value="" style="rounded=1;absoluteArcSize=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#eb6c36;strokeWidth=1.5;" vertex="1" parent="c1">
+          <mxGeometry x="565" y="577" width="16" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" value="Attacker Node" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10.5;fontColor=#2d3142;" vertex="1" parent="c1">
+          <mxGeometry x="587" y="575.19" width="74.1" height="15.66" as="geometry" />
+        </mxCell>
+        <mxCell id="c38" value="" style="rounded=1;absoluteArcSize=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#eb6c36;fillOpacity=8;strokeColor=#eb6c36;strokeWidth=1.5;" vertex="1" parent="c1">
+          <mxGeometry x="690" y="577" width="16" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="c39" value="Firewall Blocked" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10.5;fontColor=#2d3142;" vertex="1" parent="c1">
+          <mxGeometry x="712" y="575.19" width="91.2" height="15.66" as="geometry" />
+        </mxCell>
+        <mxCell id="c40" value="" style="rounded=1;absoluteArcSize=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2d3142;strokeWidth=1;" vertex="1" parent="c1">
+          <mxGeometry x="830" y="577" width="16" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="c41" value="Action / Status Chip" style="text;html=1;align=left;verticalAlign=top;spacing=0;fontFamily=Geist Mono, Courier New;fontSize=10.5;fontColor=#2d3142;" vertex="1" parent="c1">
+          <mxGeometry x="852" y="575.19" width="114" height="15.66" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
