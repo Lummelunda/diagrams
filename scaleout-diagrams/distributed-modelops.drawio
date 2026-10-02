@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="distributed-modelops" name="Distributed ModelOps">
+    <mxGraphModel dx="1600" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#F7F7F7" adaptiveColors="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="SCALEOUT EDGE  /  INTEGRATION VIEW  /  09" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.5319;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="39.2553" width="1014.8936" height="21.0638" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Distributed ModelOps" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=28.7234;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="67.0213" width="1388.2979" height="52.6596" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="Keep existing ML tools and infrastructure; extend model operations to a distributed edge fleet." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.3617;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="128.2979" width="1426.5957" height="28.7234" as="geometry" />
+        </mxCell>
+        <mxCell id="tools" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.1489;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="198.1915" width="612.766" height="266.1702" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-tag" value="EXISTING ML ECOSYSTEM" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.4894;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="tools">
+          <mxGeometry x="21.0638" y="14.3617" width="536.1702" height="20.1064" as="geometry" />
+        </mxCell>
+        <mxCell id="frameworks" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.1489;" vertex="1" parent="tools">
+          <mxGeometry x="21.0638" y="45.9574" width="570.6383" height="90.9574" as="geometry" />
+        </mxCell>
+        <mxCell id="frameworks-title" value="Frameworks + libraries" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.2766;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="frameworks">
+          <mxGeometry x="15.3191" y="11.4894" width="532.3404" height="25.8511" as="geometry" />
+        </mxCell>
+        <mxCell id="frameworks-list" value="PyTorch  ·  TensorFlow  ·  scikit-learn  ·  Transformers  ·  MONAI" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="frameworks">
+          <mxGeometry x="15.3191" y="45.9574" width="532.3404" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="platforms" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.1489;" vertex="1" parent="tools">
+          <mxGeometry x="21.0638" y="148.4043" width="570.6383" height="97.6596" as="geometry" />
+        </mxCell>
+        <mxCell id="platforms-title" value="Centralized ML platforms" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.2766;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="platforms">
+          <mxGeometry x="15.3191" y="11.4894" width="532.3404" height="25.8511" as="geometry" />
+        </mxCell>
+        <mxCell id="platforms-list" value="SageMaker  ·  Azure ML  ·  Vertex AI  ·  Kubeflow  ·  MLflow" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="platforms">
+          <mxGeometry x="15.3191" y="45.9574" width="532.3404" height="36.383" as="geometry" />
+        </mxCell>
+        <mxCell id="core" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.5319;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="499.7872" width="612.766" height="163.7234" as="geometry" />
+        </mxCell>
+        <mxCell id="core-tag" value="SCALEOUT CORE  /  SERVER SIDE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.4894;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core">
+          <mxGeometry x="21.0638" y="14.3617" width="569.6809" height="20.1064" as="geometry" />
+        </mxCell>
+        <mxCell id="core-title" value="Distributed model operations" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=21.0638;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core">
+          <mxGeometry x="21.0638" y="43.0851" width="569.6809" height="33.5106" as="geometry" />
+        </mxCell>
+        <mxCell id="core-detail" value="Coordinate federated training, govern model versions and monitor the fleet." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="core">
+          <mxGeometry x="21.0638" y="83.2979" width="569.6809" height="27.766" as="geometry" />
+        </mxCell>
+        <mxCell id="core-training" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=0.9574;" vertex="1" parent="core">
+          <mxGeometry x="21.0638" y="121.5957" width="174.2553" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="core-training-text" value="Federated training" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.4894;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core-training">
+          <mxGeometry x="7.6596" y="4.7872" width="158.9362" height="22.9787" as="geometry" />
+        </mxCell>
+        <mxCell id="core-registry" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.9574;" vertex="1" parent="core">
+          <mxGeometry x="219.2553" y="121.5957" width="174.2553" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="core-registry-text" value="Registry + delivery" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.4894;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core-registry">
+          <mxGeometry x="7.6596" y="4.7872" width="158.9362" height="22.9787" as="geometry" />
+        </mxCell>
+        <mxCell id="core-audit" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.9574;" vertex="1" parent="core">
+          <mxGeometry x="417.4468" y="121.5957" width="174.2553" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="core-audit-text" value="Telemetry + audit" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.4894;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core-audit">
+          <mxGeometry x="7.6596" y="4.7872" width="158.9362" height="22.9787" as="geometry" />
+        </mxCell>
+        <mxCell id="hosting" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.1489;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="699.8936" width="612.766" height="123.5106" as="geometry" />
+        </mxCell>
+        <mxCell id="hosting-tag" value="DEPLOYMENT ENVIRONMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.4894;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="hosting">
+          <mxGeometry x="21.0638" y="12.4468" width="536.1702" height="19.1489" as="geometry" />
+        </mxCell>
+        <mxCell id="hosting-title" value="Cloud or customer infrastructure" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17.234;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="hosting">
+          <mxGeometry x="21.0638" y="36.383" width="570.6383" height="27.766" as="geometry" />
+        </mxCell>
+        <mxCell id="hosting-list" value="AWS  ·  Azure  ·  Google Cloud  ·  OpenStack  ·  on-prem / air-gapped" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="hosting">
+          <mxGeometry x="21.0638" y="75.6383" width="570.6383" height="27.766" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3404;" vertex="1" parent="page-bg">
+          <mxGeometry x="847.8723" y="198.1915" width="665.4255" height="625.2128" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-tag" value="CLIENT SIDE  /  APACHE 2.0" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.4894;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="17.234" width="536.1702" height="20.1064" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-title" value="Scaleout client SDK" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=22.9787;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="50.7447" width="598.4043" height="35.4255" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-summary" value="Connects and manages edge nodes across the ML fleet" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.4043;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="92.8723" width="598.4043" height="28.7234" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-python" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.9574;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="139.7872" width="183.8298" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-python-text" value="Python" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.4894;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-python">
+          <mxGeometry x="7.6596" y="4.7872" width="168.5106" height="22.9787" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-cpp" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.9574;" vertex="1" parent="sdk">
+          <mxGeometry x="240.3191" y="139.7872" width="183.8298" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-cpp-text" value="C++" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.4894;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-cpp">
+          <mxGeometry x="7.6596" y="4.7872" width="168.5106" height="22.9787" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-kotlin" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.9574;" vertex="1" parent="sdk">
+          <mxGeometry x="457.6596" y="139.7872" width="183.8298" height="32.5532" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-kotlin-text" value="Kotlin" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.4894;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-kotlin">
+          <mxGeometry x="7.6596" y="4.7872" width="168.5106" height="22.9787" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-build" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.0532;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="202.9787" width="619.4681" height="97.6596" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-build-title" value="Bring your model code" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.2766;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-build">
+          <mxGeometry x="16.2766" y="11.4894" width="584.0426" height="25.8511" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-build-detail" value="Package ML workloads using frameworks supported by the target hardware." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-build">
+          <mxGeometry x="16.2766" y="46.9149" width="584.0426" height="36.383" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-run" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.0532;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="316.9149" width="619.4681" height="97.6596" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-run-title" value="Run locally" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.2766;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-run">
+          <mxGeometry x="16.2766" y="11.4894" width="584.0426" height="25.8511" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-run-detail" value="Train and infer at the node; continue operating during link loss." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-run">
+          <mxGeometry x="16.2766" y="46.9149" width="584.0426" height="36.383" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-sync" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.0532;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="430.8511" width="619.4681" height="97.6596" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-sync-title" value="Synchronize with the Core" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.2766;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-sync">
+          <mxGeometry x="16.2766" y="11.4894" width="584.0426" height="25.8511" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-sync-detail" value="Receive tasks and models; report updates, metrics and node telemetry." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4468;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="sdk-sync">
+          <mxGeometry x="16.2766" y="46.9149" width="584.0426" height="36.383" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-devices" value="EDGE NODES  /  SERVERS  ·  JETSON  ·  RASPBERRY PI  ·  OTHER TARGETS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.5319;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="22.9787" y="574.4681" width="619.4681" height="23.9362" as="geometry" />
+        </mxCell>
+        <mxCell id="core-to-sdk" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.9149;endArrow=block;endFill=1;endSize=9.5745;exitX=1;exitY=0.40;exitPerimeter=0;entryX=0;entryY=0.585;entryPerimeter=0;" edge="1" source="core" target="sdk" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-to-core" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=1.9149;endArrow=block;endFill=1;endSize=9.5745;exitX=0;exitY=0.69;exitPerimeter=0;entryX=1;entryY=0.77;entryPerimeter=0;" edge="1" source="sdk" target="core" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="model-label" value="MODELS + TASKS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.5319;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="710.0" y="532.3404" width="132.1277" height="22.0213" as="geometry" />
+        </mxCell>
+        <mxCell id="update-label" value="UPDATES + TELEMETRY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.5319;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="704.2553" y="639.5745" width="139.7872" height="22.0213" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="FRAMEWORK AGNOSTIC  ·  CUSTOMER-CHOSEN INFRASTRUCTURE  ·  EDGE DATA STAYS LOCAL BY DEFAULT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.5319;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="86.7021" y="855.0" width="1426.5957" height="21.0638" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

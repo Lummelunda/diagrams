@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="tcvn-federated-scaling" name="TCVN federated scaling">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0" pageWidth="1600" pageHeight="900" dx="1600" dy="900" background="#F7F7F7" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="TCVN  /  THREE-TIER VIEW  /  08" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="136.1386" y="35.6436" width="891.0891" height="19.604" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Scaling federated learning" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=26.7327;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="136.1386" y="62.3762" width="1292.0792" height="49.0099" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="One control plane coordinates multiple Ground Nodes; each site can serve a fleet of on-platform AI Companions." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3663;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="136.1386" y="119.4059" width="1327.7228" height="26.7327" as="geometry" />
+        </mxCell>
+        <mxCell id="control" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.4257;" vertex="1" parent="page-bg">
+          <mxGeometry x="354.4554" y="182.6733" width="891.0891" height="138.1188" as="geometry" />
+        </mxCell>
+        <mxCell id="control-tag" value="01  SHARED CONTROL PLANE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.6931;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="21.3861" y="15.1485" width="490.099" height="18.7129" as="geometry" />
+        </mxCell>
+        <mxCell id="control-title" value="Scaleout Edge" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.495;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="21.3861" y="43.6634" width="338.6139" height="31.1881" as="geometry" />
+        </mxCell>
+        <mxCell id="control-detail" value="Federates site updates; stages approved models" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.4752;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="21.3861" y="85.5446" width="374.2574" height="33.8614" as="geometry" />
+        </mxCell>
+        <mxCell id="aggregation" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#F36B34;strokeWidth=0.8911;" vertex="1" parent="control">
+          <mxGeometry x="454.4554" y="57.0297" width="129.2079" height="56.1386" as="geometry" />
+        </mxCell>
+        <mxCell id="aggregation-text" value="Aggregation" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="aggregation">
+          <mxGeometry x="9.802" y="7.1287" width="109.604" height="41.8812" as="geometry" />
+        </mxCell>
+        <mxCell id="modelops" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#F36B34;strokeWidth=0.8911;" vertex="1" parent="control">
+          <mxGeometry x="597.0297" y="57.0297" width="129.2079" height="56.1386" as="geometry" />
+        </mxCell>
+        <mxCell id="modelops-text" value="ModelOps + serving" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="modelops">
+          <mxGeometry x="9.802" y="7.1287" width="109.604" height="41.8812" as="geometry" />
+        </mxCell>
+        <mxCell id="observability" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#F36B34;strokeWidth=0.8911;" vertex="1" parent="control">
+          <mxGeometry x="739.604" y="57.0297" width="129.2079" height="56.1386" as="geometry" />
+        </mxCell>
+        <mxCell id="observability-text" value="Telemetry + audit" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="observability">
+          <mxGeometry x="9.802" y="7.1287" width="109.604" height="41.8812" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.0693;" vertex="1" parent="page-bg">
+          <mxGeometry x="140.5941" y="414.3564" width="632.6733" height="427.7228" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-tag" value="TACTICAL SITE A" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.6931;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="21.3861" y="14.2574" width="320.7921" height="19.604" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sub" value="Repeat this site pattern as the network grows" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="21.3861" y="35.6436" width="579.2079" height="22.2772" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2475;" vertex="1" parent="site-a">
+          <mxGeometry x="31.1881" y="66.8317" width="570.297" height="129.2079" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-tag" value="02  SITE WORKBENCH" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="16.0396" y="8.9109" width="267.3267" height="17.8218" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-title" value="Vision Ground Node" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18.7129;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="16.0396" y="32.0792" width="400.9901" height="30.297" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-detail" value="Collects data, runs inference and improves models locally" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="16.0396" y="64.1584" width="534.6535" height="21.3861" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-collect" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.8911;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="16.0396" y="94.4554" width="174.6535" height="25.8416" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-collect-text" value="Data + annotation" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-collect">
+          <mxGeometry x="7.1287" y="2.6733" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-active" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.8911;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="197.8218" y="94.4554" width="174.6535" height="25.8416" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-active-text" value="Active learning" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-active">
+          <mxGeometry x="7.1287" y="2.6733" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-train" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.8911;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="379.604" y="94.4554" width="174.6535" height="25.8416" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-train-text" value="Fine-tuning" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-train">
+          <mxGeometry x="7.1287" y="2.6733" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-devices" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.0693;" vertex="1" parent="site-a">
+          <mxGeometry x="31.1881" y="249.505" width="570.297" height="131.8812" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-devices-tag" value="03  ON-PLATFORM AI" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-devices">
+          <mxGeometry x="15.1485" y="8.0198" width="356.4356" height="16.9307" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-companion-1" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.0693;" vertex="1" parent="site-a-devices">
+          <mxGeometry x="16.0396" y="32.9703" width="260.198" height="81.0891" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-companion-1-title" value="AI Companion A1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.2574;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-companion-1">
+          <mxGeometry x="11.5842" y="9.802" width="237.0297" height="24.9505" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-companion-1-detail" value="On-device inference  ·  local cache" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=10.6931;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-companion-1">
+          <mxGeometry x="11.5842" y="42.7723" width="237.0297" height="24.0594" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-companion-2" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.0693;" vertex="1" parent="site-a-devices">
+          <mxGeometry x="294.0594" y="32.9703" width="260.198" height="81.0891" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-companion-2-title" value="AI Companion A2" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.2574;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-companion-2">
+          <mxGeometry x="11.5842" y="9.802" width="237.0297" height="24.9505" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-companion-2-detail" value="On-device inference  ·  local cache" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=10.6931;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-companion-2">
+          <mxGeometry x="11.5842" y="42.7723" width="237.0297" height="24.0594" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-model" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.35;exitY=1;exitPerimeter=0;entryX=0.35;entryY=0;entryPerimeter=0;" edge="1" source="site-a-ground" target="site-a-devices" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sightings" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#526480;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.65;exitY=0;exitPerimeter=0;entryX=0.65;entryY=1;entryPerimeter=0;" edge="1" source="site-a-devices" target="site-a-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-model-label" value="MODEL" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="231.6832" y="212.0792" width="80.198" height="21.3861" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sync-label" value="SIGHTINGS + TELEMETRY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="413.4653" y="212.0792" width="191.5842" height="21.3861" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.0693;" vertex="1" parent="page-bg">
+          <mxGeometry x="826.7327" y="414.3564" width="632.6733" height="427.7228" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-tag" value="TACTICAL SITE B" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.6931;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="21.3861" y="14.2574" width="320.7921" height="19.604" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sub" value="Repeat this site pattern as the network grows" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="21.3861" y="35.6436" width="579.2079" height="22.2772" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.2475;" vertex="1" parent="site-b">
+          <mxGeometry x="31.1881" y="66.8317" width="570.297" height="129.2079" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-tag" value="02  SITE WORKBENCH" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="16.0396" y="8.9109" width="267.3267" height="17.8218" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-title" value="Vision Ground Node" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18.7129;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="16.0396" y="32.0792" width="400.9901" height="30.297" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-detail" value="Collects data, runs inference and improves models locally" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.5842;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="16.0396" y="64.1584" width="534.6535" height="21.3861" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-collect" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.8911;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="16.0396" y="94.4554" width="174.6535" height="25.8416" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-collect-text" value="Data + annotation" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-collect">
+          <mxGeometry x="7.1287" y="2.6733" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-active" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.8911;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="197.8218" y="94.4554" width="174.6535" height="25.8416" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-active-text" value="Active learning" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-active">
+          <mxGeometry x="7.1287" y="2.6733" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-train" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=0.8911;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="379.604" y="94.4554" width="174.6535" height="25.8416" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-train-text" value="Fine-tuning" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=9.802;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-train">
+          <mxGeometry x="7.1287" y="2.6733" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-devices" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.0693;" vertex="1" parent="site-b">
+          <mxGeometry x="31.1881" y="249.505" width="570.297" height="131.8812" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-devices-tag" value="03  ON-PLATFORM AI" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-devices">
+          <mxGeometry x="15.1485" y="8.0198" width="356.4356" height="16.9307" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-companion-1" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.0693;" vertex="1" parent="site-b-devices">
+          <mxGeometry x="16.0396" y="32.9703" width="260.198" height="81.0891" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-companion-1-title" value="AI Companion B1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.2574;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-companion-1">
+          <mxGeometry x="11.5842" y="9.802" width="237.0297" height="24.9505" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-companion-1-detail" value="On-device inference  ·  local cache" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=10.6931;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-companion-1">
+          <mxGeometry x="11.5842" y="42.7723" width="237.0297" height="24.0594" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-companion-2" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.0693;" vertex="1" parent="site-b-devices">
+          <mxGeometry x="294.0594" y="32.9703" width="260.198" height="81.0891" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-companion-2-title" value="AI Companion B2" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.2574;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-companion-2">
+          <mxGeometry x="11.5842" y="9.802" width="237.0297" height="24.9505" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-companion-2-detail" value="On-device inference  ·  local cache" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=10.6931;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-companion-2">
+          <mxGeometry x="11.5842" y="42.7723" width="237.0297" height="24.0594" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-model" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.35;exitY=1;exitPerimeter=0;entryX=0.35;entryY=0;entryPerimeter=0;" edge="1" source="site-b-ground" target="site-b-devices" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sightings" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#526480;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.65;exitY=0;exitPerimeter=0;entryX=0.65;entryY=1;entryPerimeter=0;" edge="1" source="site-b-devices" target="site-b-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-model-label" value="MODEL" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="231.6832" y="212.0792" width="80.198" height="21.3861" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sync-label" value="SIGHTINGS + TELEMETRY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="413.4653" y="212.0792" width="191.5842" height="21.3861" as="geometry" />
+        </mxCell>
+        <mxCell id="control-model-a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.34;exitY=1;exitPerimeter=0;entryX=0.85;entryY=0;entryPerimeter=0;" edge="1" source="control" target="site-a-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-update" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.60;exitY=0;exitPerimeter=0;entryX=0.20;entryY=1;entryPerimeter=0;" edge="1" source="site-a-ground" target="control" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="control-model-b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.66;exitY=1;exitPerimeter=0;entryX=0.15;entryY=0;entryPerimeter=0;" edge="1" source="control" target="site-b-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-update" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=1.7822;endArrow=block;endFill=1;endSize=8.9109;exitX=0.40;exitY=0;exitPerimeter=0;entryX=0.80;entryY=1;entryPerimeter=0;" edge="1" source="site-b-ground" target="control" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-model-a" value="APPROVED MODEL" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="666.3366" y="360.8911" width="140.7921" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="label-update-a" value="MODEL UPDATES + METRICS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="349.1089" y="360.8911" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="label-model-b" value="APPROVED MODEL" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="793.7624" y="360.8911" width="140.7921" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="label-update-b" value="MODEL UPDATES + METRICS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="1093.1683" y="360.8911" width="160.396" height="20.495" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="RAW SENSOR DATA STAYS AT EACH SITE BY DEFAULT  ·  LINKS MAY BE INTERMITTENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=9.802;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="136.1386" y="867.0297" width="1327.7228" height="20.495" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

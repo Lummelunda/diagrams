@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="scaleout-logical-architecture" name="Scaleout Edge logical architecture">
+    <mxGraphModel dx="1600" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#F7F7F7" adaptiveColors="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="SCALEOUT EDGE  /  LOGICAL ARCHITECTURE  /  07" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.7609;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="123.0435" y="41.087" width="1027.1739" height="21.5217" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Logical architecture" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=29.3478;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="123.0435" y="70.4348" width="1320.6522" height="53.8043" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="Customer applications use domain modules built on one shared, model-agnostic platform." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.6739;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="123.0435" y="133.0435" width="1320.6522" height="27.3913" as="geometry" />
+        </mxCell>
+        <mxCell id="customer-data" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.1739;" vertex="1" parent="page-bg">
+          <mxGeometry x="164.1304" y="190.7609" width="1271.7391" height="82.1739" as="geometry" />
+        </mxCell>
+        <mxCell id="data-tag" value="CUSTOMER CONTEXT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.7609;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="customer-data">
+          <mxGeometry x="23.4783" y="14.6739" width="293.4783" height="19.5652" as="geometry" />
+        </mxCell>
+        <mxCell id="data-title" value="User data + models" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=19.5652;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="customer-data">
+          <mxGeometry x="23.4783" y="39.1304" width="508.6957" height="30.3261" as="geometry" />
+        </mxCell>
+        <mxCell id="data-detail" value="Operational data and starting models stay in customer-controlled environments" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.7174;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="customer-data">
+          <mxGeometry x="596.7391" y="31.3043" width="645.6522" height="31.3043" as="geometry" />
+        </mxCell>
+        <mxCell id="applications" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.1739;" vertex="1" parent="page-bg">
+          <mxGeometry x="164.1304" y="295.4348" width="1271.7391" height="82.1739" as="geometry" />
+        </mxCell>
+        <mxCell id="app-tag" value="CUSTOMER EXPERIENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.7609;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="applications">
+          <mxGeometry x="23.4783" y="14.6739" width="322.8261" height="19.5652" as="geometry" />
+        </mxCell>
+        <mxCell id="app-title" value="Applications" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=19.5652;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="applications">
+          <mxGeometry x="23.4783" y="39.1304" width="508.6957" height="30.3261" as="geometry" />
+        </mxCell>
+        <mxCell id="app-detail" value="Solutions built with platform APIs and the capability modules below" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.7174;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="applications">
+          <mxGeometry x="596.7391" y="31.3043" width="645.6522" height="31.3043" as="geometry" />
+        </mxCell>
+        <mxCell id="platform" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2717;" vertex="1" parent="page-bg">
+          <mxGeometry x="164.1304" y="409.8913" width="1271.7391" height="438.2609" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-tag" value="SCALEOUT EDGE PLATFORM" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7391;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="platform">
+          <mxGeometry x="23.4783" y="15.6522" width="782.6087" height="21.5217" as="geometry" />
+        </mxCell>
+        <mxCell id="modules" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.1739;" vertex="1" parent="platform">
+          <mxGeometry x="23.4783" y="49.8913" width="1224.7826" height="171.1957" as="geometry" />
+        </mxCell>
+        <mxCell id="modules-label" value="CAPABILITY MODULES" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7391;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="modules">
+          <mxGeometry x="21.5217" y="13.6957" width="684.7826" height="21.5217" as="geometry" />
+        </mxCell>
+        <mxCell id="modules-sub" value="Domain tooling that extends the same core" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=11.7391;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="modules">
+          <mxGeometry x="782.6087" y="13.6957" width="420.6522" height="21.5217" as="geometry" />
+        </mxCell>
+        <mxCell id="vision" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.1739;" vertex="1" parent="modules">
+          <mxGeometry x="21.5217" y="59.6739" width="277.8261" height="82.1739" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-title" value="Vision" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.6304;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="vision">
+          <mxGeometry x="14.6739" y="15.6522" width="248.4783" height="50.8696" as="geometry" />
+        </mxCell>
+        <mxCell id="drone" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.1739;" vertex="1" parent="modules">
+          <mxGeometry x="322.8261" y="59.6739" width="277.8261" height="82.1739" as="geometry" />
+        </mxCell>
+        <mxCell id="drone-title" value="Drone &amp; Autonomy" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.6304;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="drone">
+          <mxGeometry x="14.6739" y="15.6522" width="248.4783" height="50.8696" as="geometry" />
+        </mxCell>
+        <mxCell id="speech" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.1739;" vertex="1" parent="modules">
+          <mxGeometry x="624.1304" y="59.6739" width="277.8261" height="82.1739" as="geometry" />
+        </mxCell>
+        <mxCell id="speech-title" value="Speech Recognition" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.6304;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="speech">
+          <mxGeometry x="14.6739" y="15.6522" width="248.4783" height="50.8696" as="geometry" />
+        </mxCell>
+        <mxCell id="security" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.1739;" vertex="1" parent="modules">
+          <mxGeometry x="925.4348" y="59.6739" width="277.8261" height="82.1739" as="geometry" />
+        </mxCell>
+        <mxCell id="security-title" value="Adversarial Modeling" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.6304;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="security">
+          <mxGeometry x="14.6739" y="15.6522" width="248.4783" height="50.8696" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#3467B5;strokeWidth=1.2717;" vertex="1" parent="platform">
+          <mxGeometry x="23.4783" y="254.3478" width="1224.7826" height="65.5435" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-label" value="CLIENT SDK" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.7609;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="21.5217" y="11.7391" width="293.4783" height="18.587" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-title" value="Edge integration + APIs" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17.6087;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="21.5217" y="31.3043" width="684.7826" height="27.3913" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-detail" value="Python  ·  C++  ·  Kotlin" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.7174;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="sdk">
+          <mxGeometry x="855.9783" y="27.3913" width="342.3913" height="28.3696" as="geometry" />
+        </mxCell>
+        <mxCell id="core" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.3696;" vertex="1" parent="platform">
+          <mxGeometry x="23.4783" y="351.1957" width="1224.7826" height="68.4783" as="geometry" />
+        </mxCell>
+        <mxCell id="core-label" value="SHARED FOUNDATION" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.7609;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core">
+          <mxGeometry x="21.5217" y="10.7609" width="293.4783" height="18.587" as="geometry" />
+        </mxCell>
+        <mxCell id="core-title" value="Scaleout Edge core" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18.587;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="core">
+          <mxGeometry x="21.5217" y="32.2826" width="332.6087" height="28.3696" as="geometry" />
+        </mxCell>
+        <mxCell id="core-detail" value="Model lifecycle  ·  Federated learning  ·  Observability  ·  Governance + audit" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.6957;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="core">
+          <mxGeometry x="381.5217" y="26.413" width="807.0652" height="29.3478" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-sdk" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.9565;endArrow=block;endFill=1;endSize=9.7826;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.13099041533546327;entryY=0;entryPerimeter=0;" edge="1" source="vision" target="sdk" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="drone-sdk" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.9565;endArrow=block;endFill=1;endSize=9.7826;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.3769968051118211;entryY=0;entryPerimeter=0;" edge="1" source="drone" target="sdk" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="speech-sdk" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.9565;endArrow=block;endFill=1;endSize=9.7826;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.6230031948881789;entryY=0;entryPerimeter=0;" edge="1" source="speech" target="sdk" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="security-sdk" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.9565;endArrow=block;endFill=1;endSize=9.7826;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.8690095846645367;entryY=0;entryPerimeter=0;" edge="1" source="security" target="sdk" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-core" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=1.9565;endArrow=block;endFill=1;endSize=9.7826;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" edge="1" source="sdk" target="core" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="MODULES ADD DOMAIN WORKFLOWS  /  SDK CONNECTS EDGE SOFTWARE  /  CORE GOVERNS THE MODEL LIFECYCLE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.7609;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="164.1304" y="865.7609" width="1271.7391" height="20.5435" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

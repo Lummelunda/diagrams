@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="continuous-vision-improvement-loop" name="Continuous vision improvement loop">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0" pageWidth="1600" pageHeight="900" dx="1600" dy="900" background="#F7F7F7" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="MODEL LIFECYCLE  /  03" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="76.7857" y="48.2143" width="814.2857" height="23.5714" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Continuous vision improvement loop" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=31.0714;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="76.7857" y="79.2857" width="1392.8571" height="55.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="Field observations become evaluated model improvements, then return to deployed Ground Nodes as a new version." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.0714;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="76.7857" y="141.4286" width="1435.7143" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="loop" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2857;" vertex="1" parent="page-bg">
+          <mxGeometry x="76.7857" y="229.2857" width="1446.4286" height="583.9286" as="geometry" />
+        </mxCell>
+        <mxCell id="loop-label" value="SITE OPERATIONS  →  MODEL IMPROVEMENT  →  GOVERNED REDEPLOYMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.8571;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="loop">
+          <mxGeometry x="42.8571" y="23.5714" width="1050.0" height="25.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3929;" vertex="1" parent="loop">
+          <mxGeometry x="42.8571" y="86.7857" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-number" value="01" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="deploy">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-kicker" value="DEPLOY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="deploy">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-title" value="Deploy &amp;amp; run" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="deploy">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-detail" value="Stage a validated model; infer on live sensor feeds" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="deploy">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3929;" vertex="1" parent="loop">
+          <mxGeometry x="396.4286" y="86.7857" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-number" value="02" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="monitor">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-kicker" value="OBSERVE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="monitor">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-title" value="Monitor performance" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="monitor">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-detail" value="Track confidence, classes and drift signals" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="monitor">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="select" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3929;" vertex="1" parent="loop">
+          <mxGeometry x="750.0" y="86.7857" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="select-number" value="03" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="select">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="select-kicker" value="SELECT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="select">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="select-title" value="Select frames" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="select">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="select-detail" value="Keep uncertain, novel and diverse examples" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="select">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="annotate" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3929;" vertex="1" parent="loop">
+          <mxGeometry x="1103.5714" y="86.7857" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="annotate-number" value="04" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="annotate">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="annotate-kicker" value="LABEL" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="annotate">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="annotate-title" value="Annotate on site" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="annotate">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="annotate-detail" value="Review and label the chosen frames locally" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="annotate">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="improve" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3929;" vertex="1" parent="loop">
+          <mxGeometry x="1103.5714" y="325.7143" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="improve-number" value="05" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="improve">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="improve-kicker" value="IMPROVE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="improve">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="improve-title" value="Improve model" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="improve">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="improve-detail" value="Fine-tune locally; federate updates if connected" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="improve">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluate" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.6071;" vertex="1" parent="loop">
+          <mxGeometry x="583.9286" y="325.7143" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluate-number" value="06" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="evaluate">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluate-kicker" value="VERIFY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="evaluate">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluate-title" value="Evaluate &amp;amp; compare" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="evaluate">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluate-detail" value="Benchmark and shadow-test against the current model" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="evaluate">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="promote" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3929;" vertex="1" parent="loop">
+          <mxGeometry x="42.8571" y="325.7143" width="278.5714" height="123.2143" as="geometry" />
+        </mxCell>
+        <mxCell id="promote-number" value="07" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="promote">
+          <mxGeometry x="19.2857" y="11.7857" width="35.3571" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="promote-kicker" value="PROMOTE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="promote">
+          <mxGeometry x="55.7143" y="11.7857" width="203.5714" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="promote-title" value="Promote &amp;amp; redeploy" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=20.3571;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="promote">
+          <mxGeometry x="19.2857" y="38.5714" width="240.0" height="32.1429" as="geometry" />
+        </mxCell>
+        <mxCell id="promote-detail" value="Approve the new version and stage it across sites" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.3929;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="promote">
+          <mxGeometry x="19.2857" y="75.0" width="240.0" height="40.7143" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-monitor" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" source="deploy" target="monitor" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-select" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" source="monitor" target="select" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="select-annotate" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" source="select" target="annotate" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="annotate-improve" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;" edge="1" source="annotate" target="improve" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="improve-evaluate" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" edge="1" source="improve" target="evaluate" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluate-promote" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#F36B34;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" edge="1" source="evaluate" target="promote" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="promote-deploy" value="NEXT VERSION" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.3571;fontFamily=Courier New;fontSize=11.7857;fontStyle=1;fontColor=#3467B5;labelBackgroundColor=#F7F7F7;endArrow=block;endFill=1;endSize=10.7143;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0.5;entryY=1;entryPerimeter=0;" edge="1" source="promote" target="deploy" parent="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="data-boundary" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F0F2EF;strokeColor=#839878;strokeWidth=1.2857;" vertex="1" parent="loop">
+          <mxGeometry x="42.8571" y="487.5" width="653.5714" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="data-boundary-tag" value="SITE-LOCAL DATA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#839878;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="data-boundary">
+          <mxGeometry x="17.1429" y="7.5" width="610.7143" height="19.2857" as="geometry" />
+        </mxCell>
+        <mxCell id="data-boundary-copy" value="Raw video, selected frames and labels remain at the Ground Node in the default path." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.8571;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="data-boundary">
+          <mxGeometry x="17.1429" y="28.9286" width="615.0" height="31.0714" as="geometry" />
+        </mxCell>
+        <mxCell id="fleet-option" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.2857;" vertex="1" parent="loop">
+          <mxGeometry x="728.5714" y="487.5" width="675.0" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fleet-option-tag" value="WHEN CONNECTED" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.7857;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="fleet-option">
+          <mxGeometry x="17.1429" y="7.5" width="637.5" height="19.2857" as="geometry" />
+        </mxCell>
+        <mxCell id="fleet-option-copy" value="Local model updates may be aggregated across sites before evaluation." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.8571;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="fleet-option">
+          <mxGeometry x="17.1429" y="28.9286" width="640.7143" height="31.0714" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="GROUND NODE LOOP  /  COUNTER-UAS + ISR" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.8571;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="76.7857" y="846.4286" width="750.0" height="21.4286" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-note" value="Simplified from the Tactical Computer Vision Network product brief" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.8571;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="837.5" y="846.4286" width="685.7143" height="21.4286" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

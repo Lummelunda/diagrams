@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="tcvn-multi-site" name="TCVN multi-site topology">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0" pageWidth="1600" pageHeight="900" dx="1600" dy="900" background="#F7F7F7" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="TCVN  /  FLEET VIEW  /  06" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50.0" y="59.0" width="900.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Scale to multiple sites" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=30.0;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50.0" y="88.0" width="1460.0" height="55.0" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="Each tactical site operates locally. One control plane coordinates models and learning across the fleet." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=15.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50.0" y="153.0" width="1480.0" height="28.0" as="geometry" />
+        </mxCell>
+        <mxCell id="control" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.6;" vertex="1" parent="page-bg">
+          <mxGeometry x="550.0" y="236.0" width="500.0" height="148.0" as="geometry" />
+        </mxCell>
+        <mxCell id="control-tag" value="SHARED CONTROL PLANE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.0;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="22.0" y="15.0" width="456.0" height="20.0" as="geometry" />
+        </mxCell>
+        <mxCell id="control-title" value="Scaleout Edge" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=23.0;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="22.0" y="45.0" width="456.0" height="35.0" as="geometry" />
+        </mxCell>
+        <mxCell id="control-detail" value="Model registry  ·  federated learning  ·  fleet telemetry" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=14.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="22.0" y="91.0" width="456.0" height="26.0" as="geometry" />
+        </mxCell>
+        <mxCell id="control-note" value="Aggregates site updates and distributes approved models" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="control">
+          <mxGeometry x="22.0" y="119.0" width="456.0" height="21.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2;" vertex="1" parent="page-bg">
+          <mxGeometry x="60.0" y="490.0" width="720.0" height="305.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-tag" value="TACTICAL SITE A" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="24.0" y="18.0" width="300.0" height="21.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sub" value="Dedicated Ground Node + field devices" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="24.0" y="44.0" width="490.0" height="24.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.4;" vertex="1" parent="site-a">
+          <mxGeometry x="360.0" y="80.0" width="310.0" height="166.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-tag" value="SITE COMPUTE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="18.0" y="14.0" width="274.0" height="20.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-title" value="Vision Ground Node" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=19.0;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="18.0" y="44.0" width="274.0" height="31.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-detail" value="Local inference, data and model improvement" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="18.0" y="83.0" width="274.0" height="48.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-ground-offline" value="Operates through link loss" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.0;fontColor=#526480;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-ground">
+          <mxGeometry x="18.0" y="139.0" width="274.0" height="20.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sensor" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.3;" vertex="1" parent="site-a">
+          <mxGeometry x="40.0" y="100.0" width="220.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sensor-tag" value="FIELD DEVICES" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-sensor">
+          <mxGeometry x="16.0" y="12.0" width="188.0" height="19.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sensor-title" value="Sensors / UxVs" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18.0;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-sensor">
+          <mxGeometry x="16.0" y="40.0" width="188.0" height="30.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-sensor-detail" value="Video, sightings and telemetry" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a-sensor">
+          <mxGeometry x="16.0" y="79.0" width="188.0" height="42.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-field-flow" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.0;endArrow=block;endFill=1;endSize=10.0;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" source="site-a-sensor" target="site-a-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-field-label" value="VIDEO +&#10;SIGHTINGS" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.0;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="260.0" y="105.0" width="95.0" height="42.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-a-local-note" value="Raw video and local labels stay on site by default." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-a">
+          <mxGeometry x="24.0" y="265.0" width="672.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.2;" vertex="1" parent="page-bg">
+          <mxGeometry x="820.0" y="490.0" width="720.0" height="305.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-tag" value="TACTICAL SITE B" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="24.0" y="18.0" width="300.0" height="21.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sub" value="Dedicated Ground Node + field devices" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="24.0" y="44.0" width="490.0" height="24.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.4;" vertex="1" parent="site-b">
+          <mxGeometry x="40.0" y="80.0" width="310.0" height="166.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-tag" value="SITE COMPUTE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="18.0" y="14.0" width="274.0" height="20.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-title" value="Vision Ground Node" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=19.0;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="18.0" y="44.0" width="274.0" height="31.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-detail" value="Local inference, data and model improvement" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="18.0" y="83.0" width="274.0" height="48.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-ground-offline" value="Operates through link loss" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.0;fontColor=#526480;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-ground">
+          <mxGeometry x="18.0" y="139.0" width="274.0" height="20.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sensor" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#526480;strokeWidth=1.3;" vertex="1" parent="site-b">
+          <mxGeometry x="460.0" y="100.0" width="220.0" height="130.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sensor-tag" value="FIELD DEVICES" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-sensor">
+          <mxGeometry x="16.0" y="12.0" width="188.0" height="19.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sensor-title" value="Sensors / UxVs" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18.0;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-sensor">
+          <mxGeometry x="16.0" y="40.0" width="188.0" height="30.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-sensor-detail" value="Video, sightings and telemetry" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=13.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b-sensor">
+          <mxGeometry x="16.0" y="79.0" width="188.0" height="42.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-field-flow" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.0;endArrow=block;endFill=1;endSize=10.0;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" edge="1" source="site-b-sensor" target="site-b-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-field-label" value="VIDEO +&#10;SIGHTINGS" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=10.0;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="350.0" y="105.0" width="95.0" height="42.0" as="geometry" />
+        </mxCell>
+        <mxCell id="site-b-local-note" value="Raw video and local labels stay on site by default." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=12.0;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="site-b">
+          <mxGeometry x="24.0" y="265.0" width="672.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="model-a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.0;endArrow=block;endFill=1;endSize=10.0;exitX=0.17;exitY=1;exitPerimeter=0;entryX=0.72;entryY=0;entryPerimeter=0;" edge="1" source="control" target="site-a-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="updates-a" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=2.0;endArrow=block;endFill=1;endSize=10.0;exitX=0.28;exitY=0;exitPerimeter=0;entryX=0.09;entryY=1;entryPerimeter=0;" edge="1" source="site-a-ground" target="control" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="model-b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#3467B5;strokeWidth=2.0;endArrow=block;endFill=1;endSize=10.0;exitX=0.83;exitY=1;exitPerimeter=0;entryX=0.28;entryY=0;entryPerimeter=0;" edge="1" source="control" target="site-b-ground" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="updates-b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F36B34;strokeWidth=2.0;endArrow=block;endFill=1;endSize=10.0;exitX=0.72;exitY=0;exitPerimeter=0;entryX=0.91;entryY=1;entryPerimeter=0;" edge="1" source="site-b-ground" target="control" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-model-a" value="MODELS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="655.0" y="424.0" width="95.0" height="23.0" as="geometry" />
+        </mxCell>
+        <mxCell id="label-updates-a" value="UPDATES + TELEMETRY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="365.0" y="424.0" width="205.0" height="23.0" as="geometry" />
+        </mxCell>
+        <mxCell id="label-model-b" value="MODELS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#3467B5;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="877.0" y="424.0" width="95.0" height="23.0" as="geometry" />
+        </mxCell>
+        <mxCell id="label-updates-b" value="UPDATES + TELEMETRY" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="1058.0" y="424.0" width="205.0" height="23.0" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="REPEAT THE SITE PATTERN AS THE FLEET GROWS  ·  CROSS-SITE LEARNING SHARES MODEL UPDATES, NOT RAW VIDEO" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=11.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="50.0" y="831.0" width="1500.0" height="24.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

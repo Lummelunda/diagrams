@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="operational-ai-layers" name="Operational AI deployment layers">
+    <mxGraphModel dx="1600" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#F7F7F7" adaptiveColors="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="SCALEOUT EDGE  /  DEPLOYMENT LAYERS  /  10B" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=13.75;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="67.5" y="85.0" width="1375.0" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Operational AI close to the data source" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Georgia;fontSize=36.25;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="67.5" y="123.75" width="1462.5" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="A simple placement spectrum: more work can run locally as compute moves closer to live data." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=18.75;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="67.5" y="193.75" width="1462.5" height="35.0" as="geometry" />
+        </mxCell>
+        <mxCell id="axis-top" value="CLOSEST" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.5;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="53.75" y="301.25" width="97.5" height="25.0" as="geometry" />
+        </mxCell>
+        <mxCell id="axis-bottom" value="FARTHEST" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=12.5;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="53.75" y="611.25" width="97.5" height="25.0" as="geometry" />
+        </mxCell>
+        <mxCell id="device" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.875;" vertex="1" parent="page-bg">
+          <mxGeometry x="165.0" y="267.5" width="1366.25" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="device-level" value="L4" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=15.0;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="device">
+          <mxGeometry x="26.25" y="26.25" width="90.0" height="40.0" as="geometry" />
+        </mxCell>
+        <mxCell id="device-title" value="Device edge" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=26.25;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="device">
+          <mxGeometry x="167.5" y="20.0" width="485.0" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="device-detail" value="AI Companion  ·  on-device inference  ·  offline cache" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17.5;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="device">
+          <mxGeometry x="677.5" y="21.25" width="656.25" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="far" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.375;" vertex="1" parent="page-bg">
+          <mxGeometry x="165.0" y="370.0" width="1366.25" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="far-level" value="L3" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=15.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="far">
+          <mxGeometry x="26.25" y="26.25" width="90.0" height="40.0" as="geometry" />
+        </mxCell>
+        <mxCell id="far-title" value="Far edge" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=26.25;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="far">
+          <mxGeometry x="167.5" y="20.0" width="485.0" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="far-detail" value="Vision Ground Node  ·  local inference  ·  fine-tuning" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17.5;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="far">
+          <mxGeometry x="677.5" y="21.25" width="656.25" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="near" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.375;" vertex="1" parent="page-bg">
+          <mxGeometry x="165.0" y="472.5" width="1366.25" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="near-level" value="L2" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=15.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="near">
+          <mxGeometry x="26.25" y="26.25" width="90.0" height="40.0" as="geometry" />
+        </mxCell>
+        <mxCell id="near-title" value="Near edge" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=26.25;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="near">
+          <mxGeometry x="167.5" y="20.0" width="485.0" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="near-detail" value="Site servers  ·  regional compute  ·  optional aggregation" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17.5;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="near">
+          <mxGeometry x="677.5" y="21.25" width="656.25" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="central" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;shadow=0;fillColor=#FFFFFF;strokeColor=#DADBDD;strokeWidth=1.375;" vertex="1" parent="page-bg">
+          <mxGeometry x="165.0" y="575.0" width="1366.25" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="central-level" value="L1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=15.0;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="central">
+          <mxGeometry x="26.25" y="26.25" width="90.0" height="40.0" as="geometry" />
+        </mxCell>
+        <mxCell id="central-title" value="Central / hosted" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=26.25;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="central">
+          <mxGeometry x="167.5" y="20.0" width="485.0" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="central-detail" value="Model registry  ·  fleet coordination  ·  governance" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=17.5;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="central">
+          <mxGeometry x="677.5" y="21.25" width="656.25" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="principle" value="MOVE MODELS AND COMPUTE TOWARD THE DATA  /  KEEP RAW SENSOR DATA LOCAL BY DEFAULT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Courier New;fontSize=13.75;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="165.0" y="722.5" width="1366.25" height="30.0" as="geometry" />
+        </mxCell>
+        <mxCell id="qualifier" value="Illustrative positions, not fixed product tiers. Control and aggregation services can also run on-premises." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontFamily=Arial;fontSize=16.25;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;" vertex="1" parent="page-bg">
+          <mxGeometry x="165.0" y="765.0" width="1366.25" height="45.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

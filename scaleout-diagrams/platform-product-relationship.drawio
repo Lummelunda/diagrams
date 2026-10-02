@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" compressed="false">
+  <diagram id="platform-product-relationship" name="Platform and product relationship">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0" pageWidth="1600" pageHeight="900" dx="1600" dy="900" background="#F7F7F7" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F7F7F7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="eyebrow" value="PRODUCT RELATIONSHIP  /  01" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=12.0732;fontColor=#45516A;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="73.4146" y="51.5854" width="834.1463" height="24.1463" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="How the products fit together" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Georgia;fontSize=31.8293;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="73.4146" y="83.4146" width="1273.1707" height="54.878" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="A shared ML lifecycle platform supports reusable domain modules; TCVN packages them for counter-UAS and ISR." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=16.4634;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="73.4146" y="145.9756" width="1404.878" height="30.7317" as="geometry" />
+        </mxCell>
+        <mxCell id="core" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.3171;shadow=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="73.4146" y="225.0" width="430.2439" height="581.7073" as="geometry" />
+        </mxCell>
+        <mxCell id="core-eyebrow" value="01  SHARED FOUNDATION" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=13.1707;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="21.9512" width="377.561" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="core-heading" value="Scaleout Edge" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=25.2439;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="59.2683" width="377.561" height="37.3171" as="geometry" />
+        </mxCell>
+        <mxCell id="core-description" value="Horizontal, model-agnostic ML infrastructure" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14.2683;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="105.3659" width="377.561" height="41.7073" as="geometry" />
+        </mxCell>
+        <mxCell id="modules" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F3F3F3;strokeColor=#DADBDD;strokeWidth=1.3171;shadow=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="556.3415" y="225.0" width="397.3171" height="581.7073" as="geometry" />
+        </mxCell>
+        <mxCell id="modules-eyebrow" value="02  REUSABLE EXTENSIONS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=13.1707;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="21.9512" width="344.6341" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="modules-heading" value="Capability Modules" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=25.2439;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="59.2683" width="344.6341" height="37.3171" as="geometry" />
+        </mxCell>
+        <mxCell id="modules-description" value="Domain tooling built on the same core" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14.2683;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="105.3659" width="344.6341" height="41.7073" as="geometry" />
+        </mxCell>
+        <mxCell id="tcvn" value="" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.6463;shadow=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="1006.3415" y="225.0" width="520.2439" height="581.7073" as="geometry" />
+        </mxCell>
+        <mxCell id="tcvn-eyebrow" value="03  PACKAGED OFFERING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=13.1707;fontColor=#F36B34;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="26.3415" y="21.9512" width="467.561" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="tcvn-heading" value="Tactical Computer Vision Network" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23.0488;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="26.3415" y="59.2683" width="467.561" height="37.3171" as="geometry" />
+        </mxCell>
+        <mxCell id="tcvn-description" value="Continuous vision capability for counter-UAS and ISR" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14.2683;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="26.3415" y="105.3659" width="467.561" height="41.7073" as="geometry" />
+        </mxCell>
+        <mxCell id="fl" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="167.9268" width="377.561" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="fl-name" value="Federated learning" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="fl">
+          <mxGeometry x="18.6585" y="15.3659" width="340.2439" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="fl-detail" value="Distributed training across sites" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="fl">
+          <mxGeometry x="18.6585" y="51.5854" width="340.2439" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="modelops" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="263.4146" width="377.561" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="modelops-name" value="Edge ModelOps" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="modelops">
+          <mxGeometry x="18.6585" y="15.3659" width="340.2439" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="modelops-detail" value="Registry, staging and deployment" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="modelops">
+          <mxGeometry x="18.6585" y="51.5854" width="340.2439" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="governance" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="358.9024" width="377.561" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-name" value="Governance and lineage" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="governance">
+          <mxGeometry x="18.6585" y="15.3659" width="340.2439" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-detail" value="Telemetry, evidence and model history" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="governance">
+          <mxGeometry x="18.6585" y="51.5854" width="340.2439" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="resilience" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="454.3902" width="377.561" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="resilience-name" value="DDIL resilience" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="resilience">
+          <mxGeometry x="18.6585" y="15.3659" width="340.2439" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="resilience-detail" value="Offline operation and backfill" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="resilience">
+          <mxGeometry x="18.6585" y="51.5854" width="340.2439" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-line" value="OPEN CLIENT SDK  /  PYTHON · C++ · KOTLIN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=12.0732;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="core">
+          <mxGeometry x="26.3415" y="547.6829" width="377.561" height="24.1463" as="geometry" />
+        </mxCell>
+        <mxCell id="vision" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#F8EEEB;strokeColor=#F36B34;strokeWidth=1.6463;shadow=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="172.3171" width="344.6341" height="109.7561" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-name" value="Vision Module" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19.7561;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="vision">
+          <mxGeometry x="18.6585" y="15.3659" width="307.3171" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-detail" value="CV workflows used by TCVN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="vision">
+          <mxGeometry x="18.6585" y="51.5854" width="307.3171" height="50.4878" as="geometry" />
+        </mxCell>
+        <mxCell id="drone" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="298.5366" width="344.6341" height="79.0244" as="geometry" />
+        </mxCell>
+        <mxCell id="drone-name" value="Drone &amp;amp; Autonomy" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="drone">
+          <mxGeometry x="18.6585" y="8.7805" width="307.3171" height="28.5366" as="geometry" />
+        </mxCell>
+        <mxCell id="drone-detail" value="Optional companion integration" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="drone">
+          <mxGeometry x="18.6585" y="37.3171" width="307.3171" height="36.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="asr" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="394.0244" width="344.6341" height="74.6341" as="geometry" />
+        </mxCell>
+        <mxCell id="asr-name" value="Speech Recognition" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="asr">
+          <mxGeometry x="18.6585" y="8.7805" width="307.3171" height="28.5366" as="geometry" />
+        </mxCell>
+        <mxCell id="asr-detail" value="Experimental · private audio adaptation" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="asr">
+          <mxGeometry x="18.6585" y="37.3171" width="307.3171" height="31.8293" as="geometry" />
+        </mxCell>
+        <mxCell id="adversarial" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="modules">
+          <mxGeometry x="26.3415" y="485.122" width="344.6341" height="68.0488" as="geometry" />
+        </mxCell>
+        <mxCell id="adversarial-name" value="Adversarial Modeling" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="adversarial">
+          <mxGeometry x="18.6585" y="8.7805" width="307.3171" height="28.5366" as="geometry" />
+        </mxCell>
+        <mxCell id="adversarial-detail" value="Experimental · model-risk assessment" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="adversarial">
+          <mxGeometry x="18.6585" y="37.3171" width="307.3171" height="25.2439" as="geometry" />
+        </mxCell>
+        <mxCell id="reference-models" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="26.3415" y="172.3171" width="223.9024" height="140.4878" as="geometry" />
+        </mxCell>
+        <mxCell id="reference-models-name" value="Reference models" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="reference-models">
+          <mxGeometry x="18.6585" y="15.3659" width="186.5854" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="reference-models-detail" value="Starting weights for CUAS and ISR" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="reference-models">
+          <mxGeometry x="18.6585" y="51.5854" width="186.5854" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-workflows" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="270.0" y="172.3171" width="223.9024" height="140.4878" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-workflows-name" value="Vision workflows" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="vision-workflows">
+          <mxGeometry x="18.6585" y="15.3659" width="186.5854" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-workflows-detail" value="Detect · select · annotate · improve" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="vision-workflows">
+          <mxGeometry x="18.6585" y="51.5854" width="186.5854" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="ground-node" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="26.3415" y="332.561" width="223.9024" height="140.4878" as="geometry" />
+        </mxCell>
+        <mxCell id="ground-node-name" value="Vision Ground Node" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="ground-node">
+          <mxGeometry x="18.6585" y="15.3659" width="186.5854" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="ground-node-detail" value="Site inference and ML workbench" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="ground-node">
+          <mxGeometry x="18.6585" y="51.5854" width="186.5854" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="companion" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="270.0" y="332.561" width="223.9024" height="140.4878" as="geometry" />
+        </mxCell>
+        <mxCell id="companion-name" value="Edge AI Companion" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18.6585;fontColor=#323747;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="companion">
+          <mxGeometry x="18.6585" y="15.3659" width="186.5854" height="32.9268" as="geometry" />
+        </mxCell>
+        <mxCell id="companion-detail" value="Offline on-device inference" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="companion">
+          <mxGeometry x="18.6585" y="51.5854" width="186.5854" height="81.2195" as="geometry" />
+        </mxCell>
+        <mxCell id="integrations" value="" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;container=1;collapsible=0;fillColor=#FFFFFF;strokeColor=#323747;strokeWidth=1.3171;shadow=0;" vertex="1" parent="tcvn">
+          <mxGeometry x="26.3415" y="493.9024" width="467.561" height="59.2683" as="geometry" />
+        </mxCell>
+        <mxCell id="integrations-label" value="SENSOR + C2 INTEGRATIONS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=12.0732;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="integrations">
+          <mxGeometry x="17.561" y="8.7805" width="432.439" height="19.7561" as="geometry" />
+        </mxCell>
+        <mxCell id="integrations-detail" value="Sensor feeds in  ·  detections to TAK/C2" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15.3659;fontColor=#323747;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="integrations">
+          <mxGeometry x="17.561" y="29.6341" width="432.439" height="24.1463" as="geometry" />
+        </mxCell>
+        <mxCell id="core-to-modules" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#526480;strokeWidth=2.1951;endArrow=block;endFill=1;endSize=10.9756;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" source="core" target="modules" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vision-to-tcvn" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#526480;strokeWidth=2.1951;endArrow=block;endFill=1;endSize=10.9756;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.4;entryPerimeter=0;" edge="1" source="vision" target="tcvn" parent="page-bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="SAME CORE  /  DIFFERENT DOMAINS" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Courier New;fontSize=13.1707;fontColor=#526480;fontStyle=1;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="73.4146" y="839.6341" width="658.5366" height="21.9512" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-note" value="Conceptual product relationship · not a deployment topology" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=13.1707;fontColor=#45516A;fontStyle=0;fillColor=none;strokeColor=none;spacing=0;" vertex="1" parent="page-bg">
+          <mxGeometry x="926.2195" y="839.6341" width="600.3659" height="21.9512" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
