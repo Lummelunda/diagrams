@@ -214,9 +214,8 @@
       };
       const originalRequest = params.get("diagram");
       const requested = folder === "scaleout-diagrams" ? (legacyNames[originalRequest] || originalRequest) : originalRequest;
-      const preferred = folder === "scaleout-diagrams" ? "platform-technical-introduction-architecture.drawio" : "data-flow.drawio";
       const names = state.lists[folder];
-      const name = names.includes(requested) ? requested : (names.includes(preferred) ? preferred : names[0]);
+      const name = names.includes(requested) ? requested : names[0];
       await loadDiagram(name, folder);
     }
     window.addEventListener("message", event => {
